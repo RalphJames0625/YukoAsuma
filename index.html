@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIDTERM ACTIVITY 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+       body{
+        background-image: linear-gradient(to bottom right, rgb(233, 12, 12), rgb(0, 184, 230));
+      }
+
+.navicon{
+  border: 3px solid #000000;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  
+}
+      .carousel-item {
+	height: 100vh;
+	min-height: 400px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 35px;
+}
+.carousel-caption p {
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(22, 22, 22, 0.7);
+	z-index: 1;
+}
+
+.game1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: larger;
+  color: white;
+  padding: 50px;
+  font-weight: bold;
+  
+}
+.poster {
+  border: 3px solid #000000;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  
+  
+}
+
+
+  </style>
+
+  </head>
+  <body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+            <img src="Image/images.png" height="28" alt="CoolBrand" class="navicon">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Sale</a>
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="frontdiv">
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  
+  <!-- Carousel indicators -->
+  <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for carousel items -->
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video autoplay loop muted width="1900" class="d-block" alt="Slide 1" >
+          <source src="Image/video1.mp4" type="video/mp4"/>
+        </video>
+          <div class="carousel-caption d-none d-md-block">
+              <h5>BE GAME READY!</h5>
+              <p>Play the newest game without hassle.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <video autoplay loop muted width="1900"class="d-block w-100" alt="Slide 2"  >
+          <source src="Image/video3.mp4" type="video/mp4"/>
+        </video>
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Available to all Platforms</h5>
+              <p>PS5, PS4, NINTENDO SWITCH, PC, CONSOLE</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <video autoplay loop muted width="1900"class="d-block w-100" alt="Slide 3" >
+          <source src="Image/video2.mp4" type="video/mp4"/>
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Lowest prices</h5>
+          <p>
+            Play more with 20% discount!
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <!-- Carousel controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+
+ <!-- Info -->
+<div id="gamesdiv"> 
+      <div class="game1 col-md-4">
+    <h2>PLAY THE NEWEST GAME OF ALL!</h2>
+    <img src="Image/new1.avif" height="28" alt="CoolBrand" class="poster">
+    <img src="Image/new2.avif" height="28" alt="CoolBrand"class="poster">
+            
+    
+    <p>The most exciting upcoming games are pre-released with its beta versions. Our valuable customers are guaranteed to be the part of beta test of the most hot upcoming games of the year!</p>
+    
+    <h2>READY FOR EVERY PLATFORMS</h2>
+    <img src="Image/console2.jpg" height="28" alt="CoolBrand"class="poster">
+          <img src="Image/pc.jpg" height="28" alt="CoolBrand"class="poster">
+            <p>PS5, PC, NINTENDO SWITCH. Whatever platforms you have, we have the best for you! You are always connected with us!</p>
+          
+          
+            <h2>MEGA SALES!</h2>
+            <img src="Image/sale.jpg" height="28" alt="CoolBrand"class="poster">
+            
+            <p>We ensures that every product that we sell are capable for everyone's pocket! We prioritize that you can afford to buy the greatest game you can ever play.</p>     
+        </div>
+</div>
+    
+  </div>
+    <hr>
+    <footer>
+      <div id = "try">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2021 Tutorial Republic</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-dark">Terms of Use</a> 
+                <span class="text-muted mx-2">|</span> 
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  </body>
+</html>
